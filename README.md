@@ -1,4 +1,4 @@
-# Gemini Assistant for Alexa
+# Gemini Assistant 3.1 Skill for Alexa
 
 A reusable Alexa Custom Skill that sends spoken questions to the Google Gemini API. It includes English (`en-US`) and Brazilian Portuguese (`pt-BR`) interaction models and a Python AWS Lambda backend.
 
