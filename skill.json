@@ -1,0 +1,45 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Gemini Assistant",
+          "summary": "Ask Google Gemini questions with your voice.",
+          "description": "A voice interface for asking questions to Google Gemini.",
+          "examplePhrases": [
+            "Alexa, open Gemini Assistant",
+            "ask Gemini Assistant what is photosynthesis",
+            "ask Gemini Assistant to explain black holes"
+          ],
+          "keywords": ["Gemini", "AI", "assistant", "questions"],
+          "smallIconUri": "https://example.com/icon-108.png",
+          "largeIconUri": "https://example.com/icon-512.png"
+        },
+        "pt-BR": {
+          "name": "Assistente Gemini",
+          "summary": "Faça perguntas ao Google Gemini por voz.",
+          "description": "Uma interface de voz para fazer perguntas ao Google Gemini.",
+          "examplePhrases": [
+            "Alexa, abra Assistente Gemini",
+            "pergunte ao Assistente Gemini o que é fotossíntese",
+            "pergunte ao Assistente Gemini para explicar buracos negros"
+          ],
+          "keywords": ["Gemini", "IA", "assistente", "perguntas"],
+          "smallIconUri": "https://example.com/icon-108.png",
+          "largeIconUri": "https://example.com/icon-512.png"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "distributionCountries": [],
+      "testingInstructions": "Set GOOGLE_API_KEY in the Lambda environment variables before testing."
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "REPLACE_WITH_YOUR_LAMBDA_ARN"
+        }
+      }
+    }
+  }
+}

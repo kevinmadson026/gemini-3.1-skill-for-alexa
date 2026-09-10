@@ -1,0 +1,29 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "assistente gemini",
+      "intents": [
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        {
+          "name": "ChatIntent",
+          "slots": [
+            { "name": "query", "type": "AMAZON.SearchQuery" }
+          ],
+          "samples": [
+            "pergunte {query}",
+            "fale sobre {query}",
+            "me diga {query}",
+            "o que é {query}",
+            "quem é {query}",
+            "como eu faço {query}",
+            "por que {query}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
